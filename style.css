@@ -82,7 +82,7 @@ li a:hover {
   color: white;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #333 (black) on hover */
 .before-map a:hover {
   display: block;
   background-color: #333;
@@ -142,13 +142,14 @@ li a:hover {
   text-align: center;
 }
 .navbar {
-  background: transparent;
-  color: white;
+  background: #008c45;
+  color: black;
   grid-area: navbar;
   margin: 0.5em;
   padding: 0.5em;
 }
 .mainsec {
+  background: #008c45;
   color: white;
   grid-area: mainsec;
   margin: 0.5em;
@@ -169,6 +170,7 @@ li a:hover {
   align-items: center;
 }
 .sidebar {
+  background-color: #cd212a;
   color: white;
   grid-area: sidebar;
   margin: 0.5em;
