@@ -203,7 +203,15 @@ li a:hover {
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
-  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    #008c45,
+    #008c45,
+    #f4f5f0,
+    #f4f5f0,
+    #cd212a,
+    #cd212a
+  );
 }
 footer li {
   float: left;
