@@ -31,16 +31,15 @@ p {
   font-size: 1.5em;
 }
 body {
-  /* background-image: linear-gradient(
-      to right,
-      #008c45,
-      #008c45,
-      #f4f5f0,
-      #f4f5f0,
-      #cd212a,
-      #cd212a
-    );*/
-  background-image: url("background.png");
+  background-image: linear-gradient(
+    to right,
+    #008c45,
+    #008c45,
+    #f4f5f0,
+    #f4f5f0,
+    #cd212a,
+    #cd212a
+  );
   background-attachment: fixed;
   height: 100%;
   padding: 0.5em 1%;
