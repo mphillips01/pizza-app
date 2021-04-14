@@ -1,0 +1,272 @@
+html {
+  overflow-x: hidden;
+}
+body,
+section,
+p,
+article,
+aside,
+header,
+footer,
+address,
+a,
+ul,
+li,
+ol,
+dd,
+dt,
+table,
+form {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 1.5em;
+}
+body {
+  /* background-image: linear-gradient(
+      to right,
+      #008c45,
+      #008c45,
+      #f4f5f0,
+      #f4f5f0,
+      #cd212a,
+      #cd212a
+    );*/
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  padding: 0.5em 1%;
+}
+ul {
+  font-size: 1.5em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+}
+.before-map a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 2em;
+  background-color: #111;
+  color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+.before-map a:hover {
+  display: block;
+  background-color: #333;
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+}
+
+.subsec h3 {
+  text-align: center;
+}
+
+.appetizer {
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.pizza {
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.BYO {
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.method {
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.calc {
+  display: block;
+  color: white;
+  margin-bottom: 1em;
+}
+#order {
+  font-size: 2em;
+}
+.masthead {
+  background-image: linear-gradient(
+    to right,
+    #008c45,
+    #008c45,
+    #f4f5f0,
+    #f4f5f0,
+    #cd212a,
+    #cd212a
+  );
+  color: black;
+  grid-area: masthead;
+  text-align: center;
+}
+.navbar {
+  background: transparent;
+  color: white;
+  grid-area: navbar;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+.mainsec {
+  color: white;
+  grid-area: mainsec;
+  margin: 0.5em;
+  padding: 0.5em;
+  max-width: 100%;
+}
+.subsec {
+  background: rgb(205, 33, 42);
+  color: white;
+  grid-area: subsec;
+  margin: 0.5em;
+  padding: 0.5em;
+  position: relative;
+}
+#results {
+  background: black;
+  font-size: 2em;
+  align-items: center;
+}
+.sidebar {
+  color: white;
+  grid-area: sidebar;
+  margin: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa {
+  font-size: 100em;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0.5em;
+}
+.fa:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5em;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.footer {
+  background: teal;
+  color: silver;
+  grid-area: footer;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  background: transparent;
+}
+footer li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-radius: 2em;
+  border-color: white;
+}
+#bing-map {
+  position: static;
+  width: auto;
+  height: 400px;
+  margin-top: 20px;
+}
+.wrapper {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+input {
+  width: 3em;
+}
+
+#btn-estimate {
+  width: auto;
+}
+
+@media (min-width: 900px) {
+  .wrapper {
+    grid-template-columns: 2, 1fr;
+    grid-template-areas:
+      "masthead masthead"
+      "navbar sidebar"
+      "mainsec subsec"
+      "footer footer";
+  }
+}
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "masthead"
+      "navbar"
+      "mainsec"
+      "subsec"
+      "sidebar"
+      "footer";
+  }
+}
+
+@media (max-width: 344px) {
+  li {
+    float: none;
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en-us">
+  <head>
+    <meta name="description" content="Online Pizza Website" />
+    <meta
+      name="keywords"
+      content="youngstown, pizza, ohio, italian, food, cheap, good eats, online, order"
+    />
+    <title>Order | Mickey's Pizzeria</title>
+    <link rel="shortcut icon" type="image/png" href="#" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <meta property="og:image" content="#" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta property="og:title" content="Mickey's Pizzeria" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="#" />
+    <meta property="og:image" content="#" />
+    <meta property="og:site_name" content="Mickey's Pizzeria" />
+    <meta property="fb:app_id" content="643858479014358" />
+    <meta property="og:description" content="Online Pizza Website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@#" />
+    <meta name="twitter:creator" content="@#" />
+    <meta name="twitter:title" content="Mickey's Pizzeria" />
+    <meta name="twitter:description" content="Online Pizza Website" />
+    <meta name="twitter:image:src" content="#" />
+  </head>
+
+  <body>
+    <div class="wrapper"> 
+      <section class="masthead">
+          <h3>Order</h3>
+        </section>
+        <section class="navbar">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="order.html">Order</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+        <section class="sidebar">
+          <div><a target="_blank" href="http://facebook.com" class="fa fa-facebook fa-5x" title="FaceBook"></a></div>
+          <div><a target="_blank" href="http://instagram.com" class="fa fa-instagram fa-5x" title="Instagram"></a></div>
+        </section>
+      <section class="mainsec">
+      <form class="cart" id="cart-hplus">
+        <h2>Menu:</h2>
+        <div class="appetizer">
+          <h2>Appetizers: </h2>
+        
+          <div class="item">
+            <h3>Fried Cheese</h3>
+            <p>Thick Sliced Provolone Battered and Breaded, then deep-fried to perfection.</p>
+
+            <div class="info">
+              <span>Price: $7</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-fried-cheese">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-fried-cheese"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          <div class="item">
+            <h3>Hot Peppers in Oil</h3>
+            <p>1/2 # Of locally grown hot peppers cured with vinager, salt, and italian spices.</p>
+
+            <div class="info">
+              <span>Price: $5</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-hot-peppers">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-hot-peppers"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          <div class="item">
+            <h3>Charcuterie Board</h3>
+            <p>1/4 # each of sliced genoa salami, hot capicola, parma prosciutto, sharp non-smoked provolone cheese, fresh mozzerella cheese, then topped with fresh nuts and berries with a side of honey to dip.</p>
+
+            <div class="info">
+              <span>Price: $20</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-board">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-board"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          
+        <div class="pizza">
+          <h2>Specialty Pizzas:</h2>
+          <h3>All Pizzas are 12 inches</h3>
+          <div class="item">
+            <h3>Original Cheese</h3>
+            <p>Prepared with a generous amount of thick Sunday sauce, red and green bell peppers and topped mozzerella cheese.</p>
+
+            <div class="info">
+              <span>Price: $10</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-pizza-cheese">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-pizza-cheese"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          <div class="item">
+            <h3>Brier Hill</h3>
+            <p>Prepared with a generous amount of thick Sunday sauce, red and green bell peppers and topped with romano cheese.</p>
+
+            <div class="info">
+              <span>Price: $10</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-pizza-hill">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-pizza-hill"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+          <div class="item">
+            <h3>Meat Lovers</h3>
+            <p>Prepared with a generous amount of thick Sunday sauce, then topped with meatballs, sausage, pepperoni, salami, prosciutto and mozzerella cheese.</p>
+
+            <div class="info">
+              <span>Price: $15</span>
+            </div>
+
+            <div class="order">
+              <label for="txt-meat-lover">Quantity desired:</label>
+              <input
+                type="number"
+                min="0"
+                id="txt-meat-lover"
+                size="3"
+                placeholder="0"
+              />
+            </div>
+          </div>
+        </div> 
+        <h3>Check Out:</h3>
+          <label for="r-method-pickup">Shipping and Handling:</label><br />
+          <input
+            type="radio"
+            value="Pickup"
+            name="method"
+            id="r-method-pickup"
+            checked
+          />
+          <label for="r-method-pickup">Pickup (free)</label><br />
+
+          <input type="radio" value="Delivery" name="method" id="r-method-delivery" />
+          <label for="r-method-delivery">Delivery ($5 fee)</label><br />
+          <div class="group calc">
+            <p>
+              <label for="btn-estimate">Click to add to cart:</label
+              ><br />
+              <input
+                type="submit"
+                value="Estimate Total"
+                id="btn-estimate"
+              />
+              <input
+                type="text"
+                id="txt-estimate"
+                placeholder="$0.00"
+              />
+            </p>
+        </form>
+      </section>
+      <section class="subsec">
+        <h3>Your Cart</h3>
+        <div id="results"></div>
+      </section>
+      <section class="footer">
+        <h3>Footer</h3>
+        <p>Mickey's Pizzeria | Youngstown, OH</p>
+      </section>
+    </div>
+  <script src="script.js"></script>
+  </body>
+</html>
