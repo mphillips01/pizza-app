@@ -31,18 +31,7 @@ p {
   font-size: 1.5em;
 }
 body {
-  background-image: linear-gradient(
-    to right,
-    #008c45,
-    #008c45,
-    #f4f5f0,
-    #f4f5f0,
-    #cd212a,
-    #cd212a
-  );
-  background-attachment: fixed;
-  height: 100%;
-  padding: 0.5em 1%;
+  background-color: #c5daea;
 }
 ul {
   font-size: 1.5em;
@@ -64,9 +53,8 @@ li {
   padding: 14px 16px;
   text-decoration: none;
 }
-/* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #113450;
   border-style: solid;
   border-radius: 2em;
   border-color: white;
@@ -78,17 +66,17 @@ li a:hover {
   padding: 14px 16px;
   text-decoration: none;
   border-radius: 2em;
-  background-color: #111;
-  color: white;
+  background-color: #c5daea;
+  color: black;
 }
 
-/* Change the link color to #333 (black) on hover */
 .before-map a:hover {
   display: block;
   background-color: #333;
   border-style: solid;
   border-radius: 2em;
   border-color: white;
+  color: white;
 }
 
 .subsec h3 {
@@ -128,28 +116,19 @@ li a:hover {
   font-size: 2em;
 }
 .masthead {
-  background-image: linear-gradient(
-    to right,
-    #008c45,
-    #008c45,
-    #f4f5f0,
-    #f4f5f0,
-    #cd212a,
-    #cd212a
-  );
   color: black;
   grid-area: masthead;
   text-align: center;
 }
 .navbar {
-  background: #008c45;
+  background: #589ad6;
   color: black;
   grid-area: navbar;
   margin: 0.5em;
   padding: 0.5em;
 }
 .mainsec {
-  background: #008c45;
+  background: #589ad6;
   color: white;
   grid-area: mainsec;
   margin: 0.5em;
@@ -157,7 +136,7 @@ li a:hover {
   max-width: 100%;
 }
 .subsec {
-  background: rgb(205, 33, 42);
+  background: #589ad6;
   color: white;
   grid-area: subsec;
   margin: 0.5em;
@@ -165,12 +144,13 @@ li a:hover {
   position: relative;
 }
 #results {
-  background: black;
+  background: #c5daea;
   font-size: 2em;
   align-items: center;
+  color: black;
 }
 .sidebar {
-  background-color: #cd212a;
+  background-color: #589ad6;
   color: white;
   grid-area: sidebar;
   margin: 0.5em;
@@ -197,21 +177,11 @@ li a:hover {
   color: white;
 }
 .footer {
-  background: teal;
   color: silver;
   grid-area: footer;
   margin: 0.5em;
   padding: 0.5em;
   text-align: center;
-  background-image: linear-gradient(
-    to right,
-    #008c45,
-    #008c45,
-    #f4f5f0,
-    #f4f5f0,
-    #cd212a,
-    #cd212a
-  );
 }
 footer li {
   float: left;
@@ -225,7 +195,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -249,7 +218,17 @@ input {
 #btn-estimate {
   width: auto;
 }
-
+img {
+  padding-top: 10px;
+  max-width: 300px;
+}
+input[type="submit"] {
+  padding: 5px 15px;
+  background-color: #c5daea;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+}
 @media (min-width: 900px) {
   .wrapper {
     grid-template-columns: 2, 1fr;
