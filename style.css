@@ -182,7 +182,6 @@ fieldset {
 }
 li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -232,7 +231,7 @@ input[type="submit"] {
 .picture {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 2.5%;
   height: auto;
 }
@@ -244,6 +243,11 @@ input[type="submit"] {
   right: 0;
   width: 100%;
   height: 100%;
+}
+.navbar .current {
+  background-color: #c5daea;
+  color: #589ad6;
+  border-radius: 5px;
 }
 @media (min-width: 900px) {
   .wrapper {
