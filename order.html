@@ -51,7 +51,8 @@
       <section class="mainsec">
       <form class="cart" id="cart-hplus">
         <h2>Menu:</h2>
-        <div class="appetizer">
+        
+        <fieldset><div class="appetizer">
           <h2>Appetizers: </h2>
         
           <div class="item">
@@ -111,8 +112,8 @@
               />
             </div>
           </div>
-          
-        <div class="pizza">
+        </fieldset>  
+        <fieldset><div class="pizza">
           <h2>Specialty Pizzas:</h2>
           <h3>All Pizzas are 12 inches</h3>
           <div class="item">
@@ -172,8 +173,9 @@
               />
             </div>
           </div>
-        </div> 
-        <h3>Check Out:</h3>
+        </div>
+        </fieldset> 
+      <fieldset><h3>Check Out:</h3>
           <label for="r-method-pickup">Shipping and Handling:</label><br />
           <input
             type="radio"
@@ -203,6 +205,7 @@
             </p>
         </form>
       </section>
+      </fieldset>
       <section class="subsec">
         <h3>Your Cart</h3>
         <div id="results"></div>

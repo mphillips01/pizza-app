@@ -21,15 +21,6 @@ form {
   padding: 0;
   font-family: Helvetica, sans-serif;
 }
-h2 {
-  font-size: 2.5em;
-}
-h3 {
-  font-size: 2em;
-}
-p {
-  font-size: 1.5em;
-}
 body {
   background-color: #c5daea;
 }
@@ -183,10 +174,12 @@ li a:hover {
   padding: 0.5em;
   text-align: center;
 }
-footer li {
-  float: left;
-}
 
+fieldset {
+  margin-bottom: 1%;
+  border-color: #c5daea;
+  border-style: solid;
+}
 li a {
   display: block;
   color: white;
@@ -229,10 +222,28 @@ input[type="submit"] {
   cursor: pointer;
   border-radius: 5px;
 }
-.subsec .gallery {
+
+.video{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 75%;
+}
+.picture {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2.5%;
+  
+}
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 @media (min-width: 900px) {
   .wrapper {
