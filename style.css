@@ -234,7 +234,7 @@ input[type="submit"] {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 2.5%;
-  
+  height: auto;
 }
 .iframe {
   position: absolute;
